@@ -10,7 +10,9 @@ The API allows users to pass an image URL as input and post processing, the user
 The following is the folder structure of the project:
 
 -- api: This folder contains the API interface for passing input data as either a URL or gives the option for the user to do batch processing by putting all input images in inputdata folder. 
+
 -- backend_segmentation: This folder contains the backend processing code that runs the SegFormer model. 
+
 -- test: This folder contains a functional test file. 
 
 ## Installation
@@ -27,19 +29,31 @@ To install the project, the following are the steps:
 3. Set environment variables:
 
    cd api
+   
    export FLASK_APP=cloth_segmentation_api.py
 
-4. Run flask app: 
+5. Run flask app: 
    flask run --host=0.0.0.0 --port=9000
 
-5. Test functionality using Postman:
+6. Test functionality using Postman:
 
    ![image](https://github.com/user-attachments/assets/c5507b54-47c7-41ab-bb6f-86fb371b9c7d)
 
+   You can provide either http://127.0.0.1:9000/segmentation/garment or http://<generated_ip_address>:9000/segmentation/garment
+
+   This is the sample request:
+
+      {
+       "image_url": "https://plus.unsplash.com/premium_photo-1673210886161-bfcc40f54d1f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVyc29uJTIwc3RhbmRpbmd8ZW58MHx8MHx8&w=1000&q=80"
+   }
+
+   Please note that the URL has http, not https since SSL certificates are not installed. 
 
 ## Results
 
-Here are the results generated from the project:
+The result would be a base64 string that is returned in JSON format. Along with that, the output images are saved in the api folder, namely output_segmented_image.png and output_colormap_image.png. 
+
+Here are few inputs and results generated from the project:
 
 Input: ![image](https://github.com/user-attachments/assets/435cad6c-9ceb-4e8a-b21b-6a8ab7a91daa)
 
