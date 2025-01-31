@@ -55,20 +55,21 @@ The result would be a base64 string that is returned in JSON format. Along with 
 
 Here are few inputs and results generated from the project:
 
-Input: ![image](https://github.com/user-attachments/assets/435cad6c-9ceb-4e8a-b21b-6a8ab7a91daa)
+<p align="center">
+   Input: <img src="https://github.com/user-attachments/assets/435cad6c-9ceb-4e8a-b21b-6a8ab7a91daa" alt="image" height="450px">
+   Output: <img src="https://github.com/user-attachments/assets/95b08238-0422-4b3d-860f-b133330774d8" alt="image" height="450px">
+   Output in Matlab colormap format: <img src="https://github.com/user-attachments/assets/9685953a-157c-47cb-94d6-175f5b1fd44c" alt="image" height="450px">
+</p>
 
-Output: ![output_image](https://github.com/user-attachments/assets/95b08238-0422-4b3d-860f-b133330774d8)
+<p align="center">
+   Input: <img src="https://github.com/user-attachments/assets/8f46fa5a-e04a-4f87-af93-cb27b2d3d38e" alt="image" height="450px">
+   Output: <img src="https://github.com/user-attachments/assets/e5b64b7a-a63b-42cb-9d0c-944cb027b35e" alt="image" height="450px">
+</p>
 
-Output in Matlab colormap format: ![test_color](https://github.com/user-attachments/assets/9685953a-157c-47cb-94d6-175f5b1fd44c)
-
-Input: ![image001](https://github.com/user-attachments/assets/8f46fa5a-e04a-4f87-af93-cb27b2d3d38e)
-
-Output: ![output_image001](https://github.com/user-attachments/assets/e5b64b7a-a63b-42cb-9d0c-944cb027b35e)
-
-Input: ![image005](https://github.com/user-attachments/assets/179a84d1-ce08-4ca6-85a9-b9abe422c392)
-
-Output: ![output_image005](https://github.com/user-attachments/assets/f5f01d4d-413f-481f-8632-03402599ac60)
-
+<p align="center">
+   Input: <img src="https://github.com/user-attachments/assets/179a84d1-ce08-4ca6-85a9-b9abe422c392" alt="image" height="450px">
+   Output: <img src="https://github.com/user-attachments/assets/f5f01d4d-413f-481f-8632-03402599ac60" alt="image" height="450px">
+</p>
 
 
 
